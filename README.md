@@ -21,7 +21,6 @@ Personal setup and operational notes for an amnesic security environment on a US
   
   - In the `Tor Connection Assistant`, select the option **"Hide to my local network that I'm connecting to Tor"** for enhanced obfuscation.
   - [Request a bridge](https://bridges.torproject.org/options) and enter the credentials manually or via QR code.
-  - [Get a bridge](https://bridges.torproject.org/options) and enter the credentials manually or via QR code;
   - Ensure the system time is synchronized with **UTC**. If the connection fails, you may need to adjust the **BIOS/Hardware Clock** to UTC to allow the Tor handshake.
 </details>
 
