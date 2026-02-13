@@ -30,3 +30,5 @@ Personal setup and operational notes for an amnesic security environment on a US
 ## Security Recommendations
   - **Keep the OS Updated**: Always upgrade to the latest stable version as soon as it is available. Outdated versions may contain vulnerabilities or obsolete bridge protocols that compromise your security.
   - **No Persistent Storage**: Do not create a persistent partition. This ensures that no session data, downloaded files, or configurations are saved to the physical hardware, leaving zero trace after shutdown.
+  - **Never Maximize the Tor Browser**: Always keep the Tor Browser in its default window size. A maximized window exposes your screen resolution, which can be used to fingerprint and identify you across sessions.
+  - **Always Use English Keyboard and Language**: Keep the system language and keyboard layout set to English. Non-English configurations can reveal your locale and reduce anonymity by making your session distinguishable from the majority of Tor users.
