@@ -3,6 +3,9 @@ Personal setup and operational notes for an amnesic security environment on a US
 
 [**PT-BR**](./docs/README.pt-br.md)
 
+<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/cf87233d-93f8-4436-bb57-84461a9300f9" />
+
+
 ## Dependencies
 - [Tails OS](https://tails.net/install/download/index.en.html)
 
