@@ -3,6 +3,9 @@ Configuração pessoal e notas operacionais para um ambiente de segurança amné
 
 [**EN-US**](../README.md)
 
+<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/8e0b2aeb-3730-4041-ae25-bdacdf6ff8db" />
+
+
 ## Dependências
 - [Tails OS](https://tails.net/install/download/index.en.html)
 
