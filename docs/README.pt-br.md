@@ -30,3 +30,5 @@ Configuração pessoal e notas operacionais para um ambiente de segurança amné
 ## Recomendações de Segurança
   - **Mantenha o SO Atualizado**: Sempre atualize para a versão estável mais recente assim que estiver disponível. Versões desatualizadas podem conter vulnerabilidades ou protocolos de ponte obsoletos que comprometem sua segurança.
   - **Sem Armazenamento Persistente**: Não crie uma partição persistente. Isso garante que nenhum dado de sessão, arquivos baixados ou configurações sejam salvos no hardware físico, não deixando nenhum rastro após o desligamento.
+  - **Nunca Maximize o Tor Browser**: Mantenha sempre o Tor Browser no tamanho de janela padrão. Uma janela maximizada expõe a resolução da sua tela, o que pode ser usado para identificar e rastrear você entre sessões.
+  - **Sempre Use Teclado e Idioma em Inglês**: Mantenha o idioma do sistema e o layout do teclado configurados em inglês. Configurações em outros idiomas podem revelar sua localidade e reduzir o anonimato, tornando sua sessão distinguível da maioria dos usuários do Tor.
