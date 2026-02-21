@@ -1,4 +1,4 @@
-# Portable-Linux-Tails
+# 🔒 Portable-Linux-Tails
 Personal setup and operational notes for an amnesic security environment on a USB drive.
 
 [**PT-BR**](./docs/README.pt-br.md)
@@ -6,12 +6,12 @@ Personal setup and operational notes for an amnesic security environment on a US
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/cf87233d-93f8-4436-bb57-84461a9300f9" />
 
 
-## Dependencies
+## 📦 Dependencies
 - [Tails OS](https://tails.net/install/download/index.en.html)
 
-## Getting Started
+## 🚀 Getting Started
 <details>
-  <summary>Starting Linux Tails</summary>
+  <summary> ▶️ Starting Linux Tails</summary>
 
   - Plug in the USB drive and reboot your system.
   - Press **F12** (or your hardware-specific key) during boot to open the Boot Menu.
@@ -20,14 +20,14 @@ Personal setup and operational notes for an amnesic security environment on a US
 </details>
 
 <details>
-  <summary>Connect to the Tor network</summary>
+  <summary> 🌐 Connect to the Tor network</summary>
   
   - In the `Tor Connection Assistant`, select the option **"Hide to my local network that I'm connecting to Tor"** for enhanced obfuscation.
   - [Request a bridge](https://bridges.torproject.org/options) and enter the credentials manually or via QR code.
   - Ensure the system time is synchronized with **UTC**. If the connection fails, you may need to adjust the **BIOS/Hardware Clock** to UTC to allow the Tor handshake.
 </details>
 
-## Security Recommendations
+## 🛡️ Security Recommendations
   - **Keep the OS Updated**: Always upgrade to the latest stable version as soon as it is available. Outdated versions may contain vulnerabilities or obsolete bridge protocols that compromise your security.
   - **No Persistent Storage**: Do not create a persistent partition. This ensures that no session data, downloaded files, or configurations are saved to the physical hardware, leaving zero trace after shutdown.
   - **Never Maximize the Tor Browser**: Always keep the Tor Browser in its default window size. A maximized window exposes your screen resolution, which can be used to fingerprint and identify you across sessions.
