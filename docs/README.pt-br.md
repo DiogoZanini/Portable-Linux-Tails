@@ -1,4 +1,4 @@
-# Linux Tails Portátil
+# 🔒 Linux Tails Portátil
 Configuração pessoal e notas operacionais para um ambiente de segurança amnésico em um pendrive.
 
 [**EN-US**](../README.md)
@@ -6,12 +6,12 @@ Configuração pessoal e notas operacionais para um ambiente de segurança amné
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/8e0b2aeb-3730-4041-ae25-bdacdf6ff8db" />
 
 
-## Dependências
+## 📦 Dependências
 - [Tails OS](https://tails.net/install/download/index.en.html)
 
-## Primeiros Passos
+## 🚀 Primeiros Passos
 <details>
-  <summary>Iniciando o Linux Tails</summary>
+  <summary>▶️ Iniciando o Linux Tails</summary>
 
   - Conecte o pendrive e reinicie o seu sistema.
   - Pressione **F12** (ou a tecla específica do seu hardware) durante a inicialização para abrir o Menu de Boot.
@@ -20,14 +20,14 @@ Configuração pessoal e notas operacionais para um ambiente de segurança amné
 </details>
 
 <details>
-  <summary>Conectar à rede Tor</summary>
+  <summary>🌐 Conectar à rede Tor</summary>
   
   - Na página `Tor Connection Assistant`, selecione a opção **"Hide to my local network that I'm connecting to Tor"** para maior ofuscação.
   - [Solicite uma ponte](https://bridges.torproject.org/options) e insira as credenciais manualmente ou via código QR.
   - Certifique-se de que o horário do sistema esteja sincronizado com o **UTC**. Se a conexão falhar, pode ser necessário ajustar o **Relógio da BIOS/Hardware** para o UTC para permitir o handshake do Tor.
 </details>
 
-## Recomendações de Segurança
+## 🛡️ Recomendações de Segurança
   - **Mantenha o SO Atualizado**: Sempre atualize para a versão estável mais recente assim que estiver disponível. Versões desatualizadas podem conter vulnerabilidades ou protocolos de ponte obsoletos que comprometem sua segurança.
   - **Sem Armazenamento Persistente**: Não crie uma partição persistente. Isso garante que nenhum dado de sessão, arquivos baixados ou configurações sejam salvos no hardware físico, não deixando nenhum rastro após o desligamento.
   - **Nunca Maximize o Tor Browser**: Mantenha sempre o Tor Browser no tamanho de janela padrão. Uma janela maximizada expõe a resolução da sua tela, o que pode ser usado para identificar e rastrear você entre sessões.
